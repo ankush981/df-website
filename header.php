@@ -27,11 +27,11 @@
     <section id="helpline">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6" style="color:#555;">
+                <div class="col-sm-7" style="color:#555;">
                     <img src="<?php echo $server_url; ?>/assets/img/paw.png" width="25">
                     &nbsp; 24-hour animal helpline: <strong>+91-99990 99423</strong>
                 </div>
-                <div class="col-sm-4 col-sm-offset-2">
+                <div class="col-sm-3 col-sm-offset-2">
                     <form role="search" id="search">
                         <div class="input-group add-on">
                                 <input class="form-control" placeholder="Search this website" name="search-term" id="search-term" type="text">
@@ -59,16 +59,15 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="mynavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Yogi Ashwini</a></li>
+                                <li><a href="#">Medical Validations</a></li>
+                                <li><a href="#">Our Centers</a></li>
+                                <li><a href="#">FAQs</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -83,25 +82,21 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Causes<b class="caret"></b></a>
+                            <a href="#" data-toggle="dropdown">Join Us<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Initiatives</a></li>
+                                <li><a href="#">What is Charity?</a></li>
                                 <li><a href="#">Something else here</a></li>
                                 <li><a href="#">Something else here</a></li>
                                 <li><a href="#">Something else here</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Vedic Gyan<b class="caret"></b></a>
+                            <a href="#" data-toggle="dropdown">Learn<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li><a href="#">Sanatan Kriya</a></li>
+                                <li><a href="#">Vedic Gyan</a></li>
+                                <li><a href="#">Vedic Chanting</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -115,7 +110,7 @@
                                 <li><a href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="/">Contact</a></li>
+                        <li><a href="/">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -132,7 +127,7 @@
                     <div class="container">
                         <div class="wrapper wow fadeInUp delay-05s" >
                             <h1 class="title">Spreading True Yog</h1>
-                            <h4 class="sub-title">Gain Health, Beauty, and Prosperity through Yog that is not bound by Money (Maya)</h4>
+                            <h4 class="sub-title">Vedic Sciences in their pure, unadultrated form, free of Maya (money)</h4>
                             <a><button class="btn btn-submit" id="home-cta-btn">Learn More</button></a>
                         </div>
                     </div>                
