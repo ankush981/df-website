@@ -1,7 +1,9 @@
-<?php 
+<?php
+    //define meta tags, if any. these will be used by header.php
+    $meta_tags = '';
     $current_page = 'about-df';
     $current_section = 'about-us';
-    require_once('../header.php'); 
+    require_once('../includes/header.php'); 
 ?>
 
 <section class="section-padding">
@@ -102,7 +104,12 @@
                 ?>
             </div>
         </div>
+
+        <?php 
+            //include sidebar - no effect if none exists
+            include_once($server_url . '/sidebars/' . $current_section . '.php');
+        ?>
     </div>
 </section>
   
-<?php require_once('../footer.php'); ?>
+<?php require_once('../includes/footer.php'); ?>

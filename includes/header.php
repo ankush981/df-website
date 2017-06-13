@@ -1,4 +1,4 @@
-<?php require_once('settings.php'); ?>
+<?php require_once(__DIR__ . '/settings.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@
     
     <?php 
         //show meta HTML if page defines any
-        echo $meta_html; 
+        echo $meta_tags; 
     ?>
     <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/font-awesome.min.css">

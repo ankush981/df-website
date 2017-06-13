@@ -1,6 +1,6 @@
 <?php 
     $current_page = 'home';
-    require_once('header.php');    
+    require_once(__DIR__ . '/includes/header.php');    
 ?>
     <!---->
     <section id="cta-1">
@@ -284,4 +284,4 @@
     </section>
     <!---->
     <!---->
-    <?php require_once('footer.php'); ?>
+    <?php require_once(__DIR__ . '/includes/footer.php'); ?>
