@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 cta-info text-center">
-                    <h3><em><span class="dec-tec">“</span>Gyan flows from Guru to shishya. <br>There is no book or kriya or mantra that can replace a Guru.<span class="dec-tec">”</span></em> &ndash; Yogi Ashwini</h3>
+                    <h3><em><span class="dec-tec">“</span>Yog is a sadhna, not a business. It cannot be bought but is given by the Guru to the shishya. The purpose of yog is to free you from the clutches of maya, any attempts to tie the subject to commerce (or maya) will cause it to lose its efficacy.<span class="dec-tec">”</span></em> &ndash; Yogi Ashwini</h3>
                 </div>                
             </div>
         </div>
@@ -69,10 +69,11 @@
 
                     <p>Yogi Ashwini is adept in the ancient sciences of Yoga, Tantra, Spiritual Healing, Science of Havans, Past-Life Visitation, Vedic Martial Arts and the Art of Mace. He can completely change the environment of a place with his amazing chanting of vedic mantras, speaks many languages fluently, and is widely travelled. </p>
                     <p>With an Honours degree in Economics, a Masters in Management and a successful business, he is the author of global best-sellers on ancient sciences, and an eminent writer for leading newspapers and journals. He is an acclaimed speaker both nationally and internationally, having been invited to prestigious forums such as Oxford University, UK and Indian Institute of Management, Bangalore, and is the Honorary Editor of the spiritual magazine 'The Inner World' and the Guiding Light of Dhyan Foundation.</p>
-                </div>
-                <div class="col-md-12 text-center">
-                    <a href="#" class="btn btn-submit">Meet Guruji</a>
-                </div>
+
+                    <div class="col-md-12 text-center">
+                        <a href="#" class="btn btn-submit">Read More</a>
+                    </div>
+                </div>                
             </div>
         </div>
     </section>

@@ -447,6 +447,11 @@ a, a:hover
 .img-center {
     margin: 0px auto;
 }
+
+.quote-in-page {
+    margin: 20px;
+    padding: 10px 20px;
+}
 /****/
 @media (min-width: 451px) and (max-width: 900px){
     .section-title{
