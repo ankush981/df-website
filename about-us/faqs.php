@@ -109,7 +109,7 @@
                         <p><strong><em>Why do your members wear yellow?</em></strong></p>
                         <p></p>
 
-                        <p><strong><em>The science of Yog is based on the concept of Gyan, while knowledge can be acquired by reading. Knowledge remains only at the level of the intellect which still has a lot of scope for questioning, whereas, the concept of Gyan goes far beyond intellect and is totally experiential. In Yog the concept of Gyan can be acquired from everything around a Sadhak, thus a specific color and material are prescribed to the Sadhak from time to time based on the stage the Sadhak is at. </em></strong></p>
+                        <p>The science of Yog is based on the concept of Gyan, while knowledge can be acquired by reading. Knowledge remains only at the level of the intellect which still has a lot of scope for questioning, whereas, the concept of Gyan goes far beyond intellect and is totally experiential. In Yog the concept of Gyan can be acquired from everything around a Sadhak, thus a specific color and material are prescribed to the Sadhak from time to time based on the stage the Sadhak is at.</p>
                         <p></p>
 
                         <p><strong><em>What do I achieve if I follow this path?</em></strong></p>
