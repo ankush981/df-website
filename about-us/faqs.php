@@ -3,7 +3,7 @@
     $meta_tags = '';
     $current_page = 'faqs';
     $current_section = 'about-us';
-    require_once('../includes/header.php'); 
+    require_once(__DIR__ . '/../includes/header.php'); 
 ?>
 
 <section class="section-padding">
