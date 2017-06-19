@@ -1,22 +1,11 @@
 <?php
     //define meta tags, if any. these will be used by header.php
     $meta_tags = '';
-    $current_page = 'events.php';
+    $current_page = 'centers.php';
     $current_section = 'about-us';
     require_once(__DIR__ . '/../../includes/header.php'); 
 ?>
 
-<script>
-$(document).ready(function(){
-    //at the start, show only classes
-    $("#df-events").find('tr:gt(0)').hide();
-    $(".df-class").show();
-
-    $("#event-type").change(function(){
-        $("#df-events").find('tr:gt(0)').hide();        
-        $(".df-" + $(this).val()).fadeIn();
-    });
-});
 </script>
 
 <section class="section-padding">
@@ -24,97 +13,31 @@ $(document).ready(function(){
         <div class="row">
             <div class="col-sm-12 wow fadeInLeft delay-05s">
                 <div class="section-title">
-                    <h2 class="head-title">Upcoming Events at Dhyan Foundation</h2>
+                    <h2 class="head-title">Explore Dhyan Foundation Centers</h2>
                     <hr class="botm-line">                    
                 </div>
+
+                <p>Dhyan Foundation runs several centers in India and other countries. These centers are run solely on voluntary basis, and serve causes related to education, environment, animal welfare, etc. You're welcome to visit us at one of the centers and if you like what we're doing, come be a part.</p>
             </div>            
         </div>
 
+        <br>
+        
         <div class="row">
-            <div class="col-sm-9">
-                <p>Select type of event 
-                    <select id="event-type">
-                        <option value="class">Class</option>
-                        <option value="havan">Havan</option>
-                        <option value="langar">Langar</option>
-                    </select>
-                </p>
-
-                <br>
-                <table id="df-events" class="table table-striped table-responsive" style="border: 1px solid #BBB;">
-                    <tr>
-                        <th>Date</th>
-                        <th>City</th>
-                        <th>Details</th>
-                        <th>Contact</th>
-                    </tr>
-                    <tr class="df-class">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Class text here. Class text here. Class text here. Class text here. Class text here. Class text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-havan">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Havan text here. Havan text here. Havan text here. Havan text here. Havan text here. Havan text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-langar">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Langar text here. Langar text here. Langar text here. Langar text here. Langar text here. Langar text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-class">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Class text here. Class text here. Class text here. Class text here. Class text here. Class text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-havan">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Havan text here. Havan text here. Havan text here. Havan text here. Havan text here. Havan text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-langar">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Langar text here. Langar text here. Langar text here. Langar text here. Langar text here. Langar text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-class">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Class text here. Class text here. Class text here. Class text here. Class text here. Class text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-havan">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Havan text here. Havan text here. Havan text here. Havan text here. Havan text here. Havan text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>
-                    <tr class="df-langar">
-                        <td>22 July 2017</td>
-                        <td>Delhi, India</td>
-                        <td>Langar text here. Langar text here. Langar text here. Langar text here. Langar text here. Langar text here.</td>
-                        <td>+919999999999 / +919999999999</td>
-                    </tr>                        
-                </table>
+            <div class="col-sm-4 col-sm-offset-2 text-center">
+                <a href="<?php echo $server_url; ?>/about-us/centers/national-centers.php">
+                    <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/national.jpg">
+                    <button class="btn btn-submit">National Centers</button>
+                </a>
+                
             </div>
-            
-            <div class="col-sm-3" style="border: 1px solid #BBB; padding:10px;margin-top:55px;">
-                <p><strong>Important Dates</strong></p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
+            <div class="col-sm-4 text-center">
+               <a href="<?php echo $server_url; ?>/about-us/centers/international-centers.php">
+                    <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/international.jpg">
+                    <button class="btn btn-submit">International Centers</button>
+                </a>
             </div>
         </div>
-
         <div class="row">
             <div class="col-sm-12">
                 <?php 
