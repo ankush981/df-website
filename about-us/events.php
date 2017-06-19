@@ -105,7 +105,7 @@ $(document).ready(function(){
                 </table>
             </div>
             
-            <div class="col-sm-3" style="border: 1px solid #EF7A1E; padding:10px;margin-top:55px;">
+            <div class="col-sm-3" style="border: 1px solid #BBB; padding:10px;margin-top:55px;">
                 <p><strong>Important Dates</strong></p>
                 <p><em>June 21:</em> Dakshinayan Aarambh</p>
                 <p><em>June 21:</em> Dakshinayan Aarambh</p>
