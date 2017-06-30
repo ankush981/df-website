@@ -407,8 +407,21 @@ a, a:hover
     transform: rotate(20deg);
 }
 
-.sidebar-item {
-    margin-bottom: 40px;
+.sidebar-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.sidebar-box {
+    margin-top: 20px;
+    border: 2px #EF7A1E dashed;
+    padding: 20px;
+}
+
+.sidebar-item-title a {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #EF7A1E;
 }
 
 /****/

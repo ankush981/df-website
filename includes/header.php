@@ -63,11 +63,11 @@
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Yogi Ashwini</a></li>
-                                <li><a href="#">Medical Validations</a></li>
-                                <li><a href="#">Our Centers</a></li>
-                                <li><a href="#">FAQs</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/index.php">About Us</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/yogi-ashwini.php">Yogi Ashwini</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/medical-validations.php">Medical Validations</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/centers/index.php">Our Centers</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/faqs.php">FAQs</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

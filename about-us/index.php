@@ -28,35 +28,35 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="item active">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider1.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider1.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider2.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider2.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider3.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider3.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider4.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider4.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider5.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider5.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider6.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider6.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider7.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider7.jpg">
                                 </div>
 
                                 <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-df/slider8.jpg">
+                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider8.jpg">
                                 </div>
                         </div>
 
