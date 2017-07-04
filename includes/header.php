@@ -66,7 +66,8 @@
                                 <li><a href="<?php echo $server_url;?>/about-us/index.php">About Us</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/yogi-ashwini.php">Yogi Ashwini</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/medical-validations.php">Medical Validations</a></li>
-                                <li><a href="<?php echo $server_url;?>/about-us/centers/index.php">Our Centers</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/centers/national-centers.php">National Centers</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/centers/international-centers.php">International Centers</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/faqs.php">FAQs</a></li>
                             </ul>
                         </li>

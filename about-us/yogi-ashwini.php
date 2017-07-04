@@ -16,7 +16,7 @@
                 </div>
 
                 <div>
-                    <img src="<?php echo $server_url;?>/assets/img/about-us/yogi-ashwini.png" class="img img-responsive img-center">
+                    <img src="<?php echo $server_url;?>/assets/img/about-us/world-peace-yagya.jpg" class="img img-responsive img-center">
                 </div>
 
                 <div class="col-md-12 cta-info text-center quote-in-page">
@@ -34,6 +34,15 @@
 
                     <div class="col-md-12 cta-info text-center quote-in-page">
                         <h3><em><span class="dec-tec">“</span>Yog is a sadhna, not a business. It cannot be bought but is given by the Guru to the shishya. The purpose of yog is to free you from the clutches of maya, any attempts to tie the subject to commerce (or maya) will cause it to lose its efficacy.<span class="dec-tec">”</span></em></h3>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <div class="col-sm-6">
+                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/ORRI6_MZ4dQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-sm-6">
+                            <iframe width="100%" height="300" src="https://www.youtube.com/embed/jxUvBsUYU9o" frameborder="0" allowfullscreen></iframe>
+                        </div>
                     </div>
 
                     <p>Having dispelled many popular myths about yoga and having changed the lives of countless people from all walks of life, Yogi Ashwini is on a mission: to make people experience the real power of yoga, in accordance with the guru-shishya parampara. The master believes that every being is unique and it is an individual journey and therefore yoga cannot be taught as a mass exercise. He maintains one-to-one interaction with all his students worldwide and accepts nothing from his shishyas.</p>
@@ -54,6 +63,20 @@
                         <h3><em><span class="dec-tec">“</span>Only that being can tread the path of sadhna who is willing to help others.<span class="dec-tec">”</span></em></h3>
                     </div>
 
+                    <div class="col-sm-12 text-center">
+                        <h2>Learn with Yogi Ashwini</h2>
+                        <br>
+                        <div class="col-sm-6">
+                            <a href="#"><img src="<?php echo $server_url;?>/assets/img/about-us/vedic-yagya.jpg" class="img img-responsive img-center">
+                            </a>
+                            <h4><strong>Vedic Yagyas</strong></h4>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#"><img src="<?php echo $server_url;?>/assets/img/about-us/sanatan-kriya.jpg" class="img img-responsive img-center"></a>
+                            <h4><strong>Sanatan Kriya</strong></h4>
+                        </div>
+                    </div>
+
                     <p>
                     Yogi Ashwini insists upon charity and service as the sole means to progress on the path of sadhna. In fact, he dedicates most part of his life to service of mankind - running schools for the underprivileged (Anand Vidyalayas), protecting wildlife and looking after injured animals (Save a Cow , Feed a Dog, Help A Monkey and Befriend A Bird), countrywide daily food distribution camps (langars) , sponsoring higher education of the poor and the blind, generating employment for the under-privileged, providing medical help to humans and animals alike, to name a few.
                     </p>
@@ -61,9 +84,54 @@
             </div>
 
             <div class="col-sm-12">
+                <h3><strong>Meet Yogiji</strong></h3>
+                <p>If you are desirous of the journey beyond the psysical and want to meet Yogiji, please click here and fill out a form.</p>
+                <button class="btn btn-submit" data-toggle="modal" data-target="#meet-yogiji">Meet Yogiji</button>
+            </div>
+
+            <!-- Modal for Meet Yogiji -->
+            <div class="modal fade" id="meet-yogiji" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Yes, I want to meet Yogiji.</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <form>
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Email</label>
+                                            <input class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Contact no.</label>
+                                            <input class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Message (optional)</label>
+                                            <textarea rows="3" class="form-control"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-submit">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>      
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
                 <?php 
                     //sidebar name is linked to section name
-                    include_once('../sidebars/' . $current_section . '.php'); 
+                    include_once('../includes/sidebars/' . $current_section . '.php'); 
                 ?>
             </div>
         </div>
