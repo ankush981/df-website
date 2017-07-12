@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 cta-info text-center">
-                    <h3><em><span class="dec-tec">“</span>Yog is a sadhna, not a business. It cannot be bought but is given by the Guru to the shishya. The purpose of yog is to free you from the clutches of maya, any attempts to tie the subject to commerce (or maya) will cause it to lose its efficacy.<span class="dec-tec">”</span></em> &ndash; Yogi Ashwini</h3>
+                    <h3><em>"Yog is a sadhna, not a business. It cannot be bought but is given by the Guru to the shishya. The purpose of yog is to free you from the clutches of maya, any attempts to tie the subject to commerce (or maya) will cause it to lose its efficacy."</em> &ndash; Yogi Ashwini</h3>
                 </div>                
             </div>
         </div>
@@ -26,27 +26,31 @@
                     </div>
                 </div>
                 <div class="col-md-9">
-                    <div class="col-md-6 wow fadeInRight delay-02s">
-                        <div class="icon-text">
-                            <img src="<?php echo $server_url; ?>/assets/img/vedic-martial-arts.jpg" class="img img-responsive">
+                    <div class="row">
+                        <div class="col-md-6 wow fadeInRight delay-02s">
+                            <div class="icon-text">
+                                <img src="<?php echo $server_url; ?>/assets/img/vedic-martial-arts.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight delay-02s">
+                            <div style="margin-top:-20px;">
+                                <h3 class="txt-tl">Vedic Martial Arts</h3>
+                                <p class="txt-para">As opposed to the popular idea of high-flying, offensive skills of a martial artist, Dhayn Foundation teaches martial arts as it originated in India. The goal is to build the mind, control aggression, increase awareness of surroundings, and developing humility.</p>
+                                <p><strong><a href="#">Learn more ...</a></strong></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 wow fadeInRight delay-02s">
-                        <div style="margin-top:-20px;">
-                            <h3 class="txt-tl">Vedic Martial Arts</h3>
-                            <p class="txt-para">As opposed to the popular idea of high-flying, offensive skills of a martial artist, Dhayn Foundation teaches martial arts as it originated in India. The goal is to build the mind, control aggression, increase awareness of surroundings, and developing humility.</p>
+                    <div class="row">
+                        <div class="col-md-6 wow fadeInRight delay-04s">
+                            <div class="icon-text">
+                                <img src="<?php echo $server_url; ?>/assets/img/sanatan-kriya.jpg" class="img img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight delay-04s">
+                            <h3 class="txt-tl">Sanatan Kriya</h3>
+                            <p class="txt-para">Our "modern" civilization is nothing but a storehouse of diseases, pollution, and medicines that kills the body along with the diseases. Sanatan Kriya shows the way out, which is a complete yogic kriya that provides remedies for modern-day man's maladies.</p>
                             <p><strong><a href="#">Learn more ...</a></strong></p>
                         </div>
-                    </div>
-                    <div class="col-md-6 wow fadeInRight delay-04s">
-                        <div class="icon-text">
-                            <img src="<?php echo $server_url; ?>/assets/img/sanatan-kriya.jpg" class="img img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-6 wow fadeInRight delay-04s">
-                        <h3 class="txt-tl">Sanatan Kriya</h3>
-                        <p class="txt-para">Our "modern" civilization is nothing but a storehouse of diseases, pollution, and medicines that kills the body along with the diseases. Sanatan Kriya shows the way out, which is a complete yogic kriya that provides remedies for modern-day man's maladies.</p>
-                        <p><strong><a href="#">Learn more ...</a></strong></p>
                     </div>
                 </div>
             </div>

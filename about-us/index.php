@@ -9,7 +9,7 @@
 <section class="section-padding">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 wow fadeInLeft delay-05s">
+            <div class="col-sm-8 wow fadeInLeft delay-05s">
                 <div class="section-title">
                     <h2 class="head-title">About Dhyan Foundation</h2>
                     <hr class="botm-line">
@@ -20,57 +20,7 @@
                     <h4 class="para-heading">We teach yog in its true, authentic form</h4>
                     <p class="sec-para">
                         A spiritual and charitable organisation committed to the cause of spreading awareness about the authentic path of yoga, as laid down by Sage Patanjali 4500 years ago. It is a unique organization run solely by volunteers who are engaged day in and day out in helping the creation, without any remuneration for their services. These volunteers hail from all walks of life – business magnates, journalists, doctors, designers, lawyers, scholars, home-makers and normal people – driven and guided on the path of sadhna and service by Yogi Ashwini, a true living master.
-                    </p>
-
-                    <!-- Carousel -->
-                    <div style="max-width:435px;">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider1.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider2.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider3.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider4.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider5.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider6.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider7.jpg">
-                                </div>
-
-                                <div class="item">
-                                <img src="<?php echo $server_url;?>/assets/img/about-us/slider8.jpg">
-                                </div>
-                        </div>
-
-                        <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                        </div>
-                    </div>
+                    </p>                    
                     
                     <h4 class="para-heading">Benefitted professionals from all walks of life</h4>
                     <p class="sec-para">
@@ -97,18 +47,68 @@
                 </div>
             </div>
 
-            <div class="col-sm-12">
-                <?php 
-                    //sidebar name is linked to section name
-                    include_once('../sidebars/' . $current_section . '.php'); 
-                ?>
+            <div class="col-sm-4">
+                <h3><strong>Dhyan Foundation at a Glance</strong></h3>
+                <iframe width="360" height="300" src="https://www.youtube.com/embed/zIb7ufDM-DQ" frameborder="0" allowfullscreen></iframe>
+
+                <!-- Carousel -->
+                <div style="max-width:435px;">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider1.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider2.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider3.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider4.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider5.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider6.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider7.jpg">
+                            </div>
+
+                            <div class="item">
+                            <img src="<?php echo $server_url;?>/assets/img/about-us/slider8.jpg">
+                            </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <?php 
-            //include sidebar - no effect if none exists
-            include_once($server_url . '/sidebars/' . $current_section . '.php');
-        ?>
+        <div class="row">
+            <?php 
+                //include sidebar - no effect if none exists
+                include_once(__DIR__ . '/../includes/sidebars/' . $current_section . '.php');
+            ?>
+        </div>
     </div>
 </section>
   

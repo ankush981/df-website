@@ -52,6 +52,10 @@ h1, h2, h3, h4, h5, h6
     min-height: 610px;
 }*/
 
+.nav {
+    margin-top: -50px;
+}
+
 .nav > li > a {
     padding: 0px;
 }
@@ -60,6 +64,8 @@ h1, h2, h3, h4, h5, h6
 	padding: 0px;
 	height: inherit;
 	font-family: 'Lato', sans-serif;
+    margin-top: -20px;
+    margin-left: 70px;
 }
 .navbar-default .navbar-brand {
     color: #000;
@@ -178,7 +184,7 @@ h1, h2, h3, h4, h5, h6
 
 .cta-info
 {
-	border: 5px solid #FFD34E;
+	/*border: 5px solid #FFD34E;*/
 	padding: 10px 0px 15px 0px;
 }
 
@@ -429,6 +435,7 @@ a, a:hover
     color: #CCC;
 	background-color: #191919;
 	padding: 20px 0px;
+    font-size: 0.9em;
 }
 
 .footer-df-name {
@@ -440,14 +447,12 @@ a, a:hover
     text-align: left;
 }
 
-.footer-social
-{
-	float: right;
-}
 .footer-social a {
     font-size: 18px;
-    color: #666;
+    color: #fff;
+    display: inline-block;
 }
+
 .link-dec, .link-dec:hover{
     color: #000;
 }

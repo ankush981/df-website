@@ -1,7 +1,7 @@
 <?php
     //define meta tags, if any. these will be used by header.php
     $meta_tags = '';
-    $current_section = 'about-us-centers';
+    $current_section = 'about-us';
     require_once(__DIR__ . '/../../includes/header.php'); 
 ?>
 
@@ -33,6 +33,13 @@
             </div>
         </div>
 
+        <div class="row">
+            <?php 
+                //sidebar name is linked to section name - no effect if file doesn't exist
+                include_once(__DIR__ . '/../../includes/sidebars/' . $current_section . '.php'); 
+            ?>
+        </div>
+    </div>
     <!-- Germany center details -->
     <div class="modal fade" id="germany-details" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog modal-lg" role="document">

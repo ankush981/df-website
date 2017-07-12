@@ -12,14 +12,10 @@
                     </div>
                 </div>
                 <div class="col-sm-2 footer-social">
-                    <div class="pull-right hidden-xs hidden-sm">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
-                    </div>
-                </div>
+                    <a href="#"><img class="img img-responsive" src="<?php echo $server_url;?>/assets/img/facebook.png" width="36"></a>
+                    <a href="#"><img class="img img-responsive" src="<?php echo $server_url;?>/assets/img/twitter.png" width="36"></a>
+                    <a href="#"><img class="img img-responsive" src="<?php echo $server_url;?>/assets/img/youtube.png" width="36"></a>
+                </div>               
             </div>
         </div>
     </footer> 

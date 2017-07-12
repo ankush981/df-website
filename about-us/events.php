@@ -116,12 +116,10 @@ $(document).ready(function(){
         </div>
 
         <div class="row">
-            <div class="col-sm-12">
-                <?php 
-                    //sidebar name is linked to section name - no effect if file doesn't exist
-                    include_once(__DIR__ . '/../sidebars/' . $current_section . '.php'); 
-                ?>
-            </div>
+            <?php 
+                //sidebar name is linked to section name - no effect if file doesn't exist
+                include_once(__DIR__ . '/../includes/sidebars/' . $current_section . '.php'); 
+            ?>
         </div>
     </div>
 </section>

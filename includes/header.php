@@ -11,27 +11,27 @@
         //show meta HTML if page defines any
         echo $meta_tags; 
     ?>
-    <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/style.css">
 
-    <script src="<?php echo $server_url; ?>/assets/js/jquery.min.js"></script>
-    <script src="<?php echo $server_url; ?>/assets/js/jquery.easing.min.js"></script>
-    <script src="<?php echo $server_url; ?>/assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo $server_url; ?>/assets/js/wow.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.0/wow.min.js"></script>
     <script src="<?php echo $server_url; ?>/assets/js/custom.js"></script>   
   </head>
   <body>
-
     <section id="helpline">
         <div class="container">
             <div class="row">
-                <div class="col-sm-7" style="color:#555;">
+                <div class="col-sm-5" style="color:#555;">
                     <img src="<?php echo $server_url; ?>/assets/img/paw.png" width="25">
                     &nbsp; 24-hour animal helpline: <strong>+91-99990 99423</strong>
                 </div>
-                <div class="col-sm-3 col-sm-offset-2">
+               
+                <div class="col-sm-3 pull-right">
                     <form role="search" id="search">
                         <div class="input-group add-on">
                                 <input class="form-control" placeholder="Search this website" name="search-term" id="search-term" type="text">
@@ -44,6 +44,13 @@
             </div>
         </div>
     </section>
+
+    <br>
+
+    <!-- Logo -->
+    <a href="/" class="navbar-brand">
+        <img class="img img-responsive" src="<?php echo $server_url;?>/assets/img/dhyan-foundation-logo.png" width="180">
+    </a> 
     
     <!--nav-->
     <nav class="nav navbar-default">
@@ -53,15 +60,13 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
                     <span class="fa fa-bars"></span>
                 </button>
-                    <a href="/" class="navbar-brand">
-                        <img class="img img-responsive" src="<?php echo $server_url;?>/assets/img/dhyan-foundation-logo.png" width="180">
-                    </a>
+                    
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="mynavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="/">Home</a></li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <a href="#" data-hover="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo $server_url;?>/about-us/index.php">About Us</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/yogi-ashwini.php">Yogi Ashwini</a></li>
@@ -72,7 +77,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Workshops<b class="caret"></b></a>
+                            <a href="#" data-hover="dropdown">Workshops<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
@@ -83,7 +88,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Join Us<b class="caret"></b></a>
+                            <a href="#" data-hover="dropdown">Join Us<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Initiatives</a></li>
                                 <li><a href="#">What is Charity?</a></li>
@@ -93,7 +98,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Learn<b class="caret"></b></a>
+                            <a href="#" data-hover="dropdown">Learn<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Sanatan Kriya</a></li>
                                 <li><a href="#">Vedic Gyan</a></li>
@@ -101,7 +106,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" data-toggle="dropdown">Publications<b class="caret"></b></a>
+                            <a href="#" data-hover="dropdown">Publications<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Action</a></li>
                                 <li><a href="#">Another action</a></li>
