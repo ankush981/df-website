@@ -9,18 +9,15 @@
     
     <?php 
         //show meta HTML if page defines any
-        echo $meta_tags; 
+        echo $page_tags; 
     ?>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $server_url; ?>/assets/css/style.css">
-
+    
+    <!-- jQuery is needed in head -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.0/wow.min.js"></script>
-    <script src="<?php echo $server_url; ?>/assets/js/custom.js"></script>   
+
   </head>
   <body>
     <section id="helpline">
@@ -73,6 +70,7 @@
                                 <li><a href="<?php echo $server_url;?>/about-us/medical-validations.php">Medical Validations</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/centers/national-centers.php">National Centers</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/centers/international-centers.php">International Centers</a></li>
+                                <li><a href="<?php echo $server_url;?>/about-us/events.php">Upcoming Events</a></li>
                                 <li><a href="<?php echo $server_url;?>/about-us/faqs.php">FAQs</a></li>
                             </ul>
                         </li>

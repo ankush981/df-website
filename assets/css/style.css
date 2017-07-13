@@ -261,6 +261,12 @@ p
     font-size: 2em;
 }
 
+select#event-type {
+    border-radius: 10px;    
+    padding: 5px;   
+    
+}
+
 h3.txt-tl {
     font-size: 24px;
     line-height: 1.35;

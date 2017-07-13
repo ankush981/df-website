@@ -19,5 +19,12 @@
             </div>
         </div>
     </footer> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.0.0/wow.min.js"></script>
+    <script src="<?php echo $server_url; ?>/assets/js/custom.js"></script>
+
   </body>
 </html>

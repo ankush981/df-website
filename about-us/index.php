@@ -1,7 +1,5 @@
 <?php
-    //define meta tags, if any. these will be used by header.php
-    $meta_tags = '';
-    $current_page = 'about-df';
+    $page_tags = '<title>Dhyan Foundation</title>';
     $current_section = 'about-us';
     require_once('../includes/header.php'); 
 ?>

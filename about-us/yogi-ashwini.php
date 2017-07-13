@@ -1,7 +1,5 @@
 <?php
-    //define meta tags, if any. these will be used by header.php
-    $meta_tags = '';
-    $current_page = 'about-yogi-ashwini';
+    $page_tags = '<title>Yogi Ashwini</title>';
     $current_section = 'about-us';
     require_once('../includes/header.php'); 
 ?>

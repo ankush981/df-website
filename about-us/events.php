@@ -1,7 +1,5 @@
 <?php
-    //define meta tags, if any. these will be used by header.php
-    $meta_tags = '';
-    $current_page = 'events.php';
+    $page_tags = '<title>Upcoming events at Dhyan Foundation</title>';
     $current_section = 'about-us';
     require_once(__DIR__ . '/../includes/header.php'); 
 ?>
@@ -31,7 +29,7 @@ $(document).ready(function(){
         </div>
 
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-sm-8">
                 <p>Select type of event 
                     <select id="event-type">
                         <option value="class">Class</option>
@@ -105,13 +103,36 @@ $(document).ready(function(){
                 </table>
             </div>
             
-            <div class="col-sm-3" style="border: 1px solid #BBB; padding:10px;margin-top:55px;">
-                <p><strong>Important Dates</strong></p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
-                <p><em>June 21:</em> Dakshinayan Aarambh</p>
+            <div class="col-sm-4">
+                <table class="table table-striped table-bordered" style="margin-top:65px;">
+                    <tr>
+                        <th colspan="2">Important Dates</th>
+                    </tr>
+                    <tr>
+                        <td>21 August 2017</td>
+                        <td>Dakshinayan Aarambh</td>
+                    </tr>
+                    <tr>
+                        <td>21 August 2017</td>
+                        <td>Dakshinayan Aarambh</td>
+                    </tr>
+                    <tr>
+                        <td>21 August 2017</td>
+                        <td>Dakshinayan Aarambh</td>
+                    </tr>
+                    <tr>
+                        <td>21 August 2017</td>
+                        <td>Dakshinayan Aarambh</td>
+                    </tr>
+                    <tr>
+                        <td>21 August 2017</td>
+                        <td>Dakshinayan Aarambh</td>
+                    </tr>
+                    <tr>
+                        <td>21 August 2017</td>
+                        <td>Dakshinayan Aarambh</td>
+                    </tr>
+                </table>
             </div>
         </div>
 
