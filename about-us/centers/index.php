@@ -14,7 +14,6 @@
             <div class="col-sm-12 wow fadeInLeft delay-05s">
                 <div class="section-title">
                     <h2 class="head-title">Explore Dhyan Foundation Centers</h2>
-                    <hr class="botm-line">                    
                 </div>
 
                 <p>Dhyan Foundation runs several centers in India and other countries. These centers are run solely on voluntary basis, and serve causes related to education, environment, animal welfare, etc. You're welcome to visit us at one of the centers and if you like what we're doing, come be a part.</p>

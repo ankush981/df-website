@@ -10,14 +10,13 @@
             <div class="col-sm-8 wow fadeInLeft delay-05s">
                 <div class="section-title">
                     <h2 class="head-title">About Dhyan Foundation</h2>
-                    <hr class="botm-line">
                     <p class="sec-para">
                         Dhyan Foundation is a spiritual and charitable organisation committed to the cause of spreading awareness about the authentic path of yoga, as laid down by Sage Patanjali 4500 years ago. Run solely by volunteers who are engaged day in and day out in helping the creation, without any remuneration for their services – driven and guided on the path of sadhna and service by Yogi Ashwini, a true living master.
                     </p>
                     
                     <h4 class="para-heading">We teach yog in its true, authentic form</h4>
                     <p class="sec-para">
-                        A spiritual and charitable organisation committed to the cause of spreading awareness about the authentic path of yoga, as laid down by Sage Patanjali 4500 years ago. It is a unique organization run solely by volunteers who are engaged day in and day out in helping the creation, without any remuneration for their services. These volunteers hail from all walks of life – business magnates, journalists, doctors, designers, lawyers, scholars, home-makers and normal people – driven and guided on the path of sadhna and service by Yogi Ashwini, a true living master.
+                        Formed in 2002 by students of Yogi Ashwini to share and spread the gyan of original and pristine form of yoga, Dhyan Foundation, today is a global phenomenon with centers all across the world where classes for Sanatan Kriya (Patanjali Ashtang Yog in its orginal, undiluted form) are conducted free of cost in line with the ancient Guru-Shishya Parampara. There are thousands across the globe who have benefited physically, emotionally, mentally and spiritually from the practice of Sanatan Kriya.
                     </p>                    
                     
                     <h4 class="para-heading">Benefitted professionals from all walks of life</h4>
@@ -36,12 +35,6 @@
                     <p class="sec-para">
                         The Foundation is actively engaged in a host of charitable activities including free distribution of food at multiple places, saving wildlife and looking after injured animals (Feed a Dog, Save a Cow), running schools for street kids, sponsoring higher education of the poor, finding employment for the unemployed, spreading awareness about environmental issues etc. and all this is done without any government funding or selling any products, solely out of funds of Yogi Ashwini and from the contributions of the volunteers and well wishers. A unique concept at Dhyan Foundation is that the various centres collect and manage their own funds and resources.
                     </p>
-
-                    <h4 class="para-heading">What are you searching for . . . ?</h4>
-                    <p class="sec-para">
-                        Please excuse us if you're searching for show of miracles or cures for your problems. However, if you're desirous of the journey beyond, and want to experience the true nature of reality, come to Dhyan Foundation!
-                    </p>
-
                 </div>
             </div>
 
@@ -98,6 +91,80 @@
                     </a>
                     </div>
                 </div>
+
+                <div>
+                    <h3>Join Our Causes</h3>
+                    <a href="#"><img width="360" src="<?php echo $server_url . '/assets/img/about-us/join-our-causes.jpg'?>"/></a>
+                </div>
+
+                <div>
+                    <h3>Find a Center Near You</h3>
+                    <a href="<?php echo $server_url . '/about-us/centers'; ?>"><img width="360" src="<?php echo $server_url . '/assets/img/about-us/centers/ludhiana-1.jpg'?>"/></a>
+                </div>
+
+                <div>
+                    <button class="btn btn-submit" data-toggle="modal" data-target="#">Class Locator</button>
+                    <button class="btn btn-submit" data-toggle="modal" data-target="#book-yagya">Book a Yagya</button>
+                </div>
+
+                <!-- Modal for Book a Yogya -->
+                <div class="modal fade" id="book-yagya" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Yes, I want a Vedic yagya performed on my premises.</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <form>
+                                            <div class="form-group">
+                                                <label>Name</label>
+                                                <input class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Contact no.</label>
+                                                <input class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Occupation</label>
+                                                <input class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Full address of location</label>
+                                                <textarea rows="3" class="form-control"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Date of yagya</label>
+                                                <input type="date" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Number of participants</label>
+                                                <input type="number" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Specific reasons for conducting havan (if any)</label>
+                                                <textarea rows="3" class="form-control"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Comments/queries</label>
+                                                <textarea rows="3" class="form-control"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <button class="btn btn-submit">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>      
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
 

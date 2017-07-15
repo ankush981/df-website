@@ -11,7 +11,6 @@
                 <div class="col-sm-12 wow fadeInLeft delay-05s">
                     <div class="section-title">
                         <h2 class="head-title">About Yogi Ashwini</h2>
-                        <hr class="botm-line">
                     </div>
 
                     <div>
@@ -111,7 +110,7 @@
                 
                 <br><br>
                 <p><strong>Vedic Yagyas</strong></p>
-                <a href="#"><img src="<?php echo $server_url;?>/assets/img/about-us/vedic-yagya.jpg" class="img img-responsive">
+                <a href="#"><img src="<?php echo $server_url;?>/assets/img/about-us/vedic-yagya.jpg" class="img img-responsive img-center" width="310">
                 </a>
                 <br>
                 <br>
@@ -120,7 +119,7 @@
 
                 <div class="col-sm-12">
                     <h3><strong>Meet Yogiji</strong></h3>
-                    <p>If you are desirous of the journey beyond the psysical and want to meet Yogiji, please click here and fill out a form.</p>
+                    <p>If you want to meet Yogiji, please click here and fill out a form.</p>
                     <button class="btn btn-submit" data-toggle="modal" data-target="#meet-yogiji">Meet Yogiji</button>
                 </div>
             </div>

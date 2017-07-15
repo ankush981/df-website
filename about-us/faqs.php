@@ -10,7 +10,6 @@
             <div class="col-sm-12 wow fadeInLeft delay-05s">
                 <div class="section-title">
                     <h2 class="head-title">Frequently Asked Questions</h2>
-                    <hr class="botm-line">
 
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="false">
                         <div class="panel panel-default">

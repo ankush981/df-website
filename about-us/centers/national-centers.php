@@ -23,17 +23,17 @@
         <div class="row">
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/bengaluru.jpg" height="250">
-                <h3>Bengaluru Center</h3>
+                <h3>Bengaluru</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#bengaluru-details">Explore</button>
             </div>
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/dehradun.jpg" height="250">
-                <h3>Dehradun Center</h3>
+                <h3>Dehradun</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#dehradun-details">Explore</button>
             </div>
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/hyderabad.jpg" height="250">
-                <h3>Hyderabad Center</h3>
+                <h3>Hyderabad</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#hyderabad-details">Explore</button>
             </div>
         </div>
@@ -42,17 +42,17 @@
         <div class="row">
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/kolkata.jpg" height="250">
-                <h3>Kolkata Center</h3>
+                <h3>Kolkata</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#kolkata-details">Explore</button>
             </div>
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/ludhiana.jpg" height="250">
-                <h3>Ludhiana Center</h3>
+                <h3>Ludhiana</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#ludhiana-details">Explore</button>
             </div>
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/mumbai.jpg" height="250">
-                <h3>Mumbai Center</h3>
+                <h3>Mumbai</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#mumbai-details">Explore</button>
             </div>
         </div>
@@ -61,7 +61,7 @@
         <div class="row">
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/pune.jpg" height="250">
-                <h3>Pune Center</h3>
+                <h3>Pune</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#pune-details">Explore</button>
             </div>
         </div>

@@ -23,7 +23,7 @@ $(document).ready(function(){
             <div class="col-sm-12 wow fadeInLeft delay-05s">
                 <div class="section-title">
                     <h2 class="head-title">Upcoming Events at Dhyan Foundation</h2>
-                    <hr class="botm-line">                    
+                    <br>
                 </div>
             </div>            
         </div>

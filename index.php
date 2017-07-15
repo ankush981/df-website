@@ -21,7 +21,6 @@
                 <div class="col-md-3 wow fadeInLeft delay-05s">
                     <div class="section-title">
                         <h2 class="head-title">About Dhyan Foundation</h2>
-                        <hr class="botm-line">
                         <p class="sec-para">Dhyan Foundation is a spiritual and charitable organisation committed to the cause of spreading awareness about the authentic path of yoga, as laid down by Sage Patanjali 4500 years ago. Run solely by volunteers who are engaged day in and day out in helping the creation, without any remuneration for their services – driven and guided on the path of sadhna and service by Yogi Ashwini, a true living master.</p>
                     </div>
                 </div>
@@ -88,7 +87,6 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="section-title">
                         <h2 class="head-title">Causes we stand for</h2>
-                        <hr class="botm-line">
                         <p class="sec-para">Yogi Ashwini says: <em>"It is the Dharma of every human being to provide food, medicine and shelter to every man, animal and plant in the range of their sight."</em></p> 
                         <p>In fact, service and charity are the only recourse for mankind in Kaliyug.</p>
                         <button class="btn btn-submit">See all causes</button>
@@ -142,7 +140,6 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="section-title">
                         <h2 class="head-title">Explore Vedic sciences</h2>
-                        <hr class="botm-line">
                         <p class="sec-para">Dhyan Foundation is committed to spreading yog in its authentic, Vedic form, Unlike modern "godmen" who aim to make money and lose the efficacy of yog, Yogi Ashwini teaches yog exactly the way it was given to us 5,000 years ago by the Vedic seers.</p>
                         <button class="btn btn-submit">See all offerings</button>
                     </div>
@@ -190,7 +187,6 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="col-sm-6">
                         <h3 class="head-title">Vedic Yagya</h3>
-                        <hr class="botm-line">
                         <div>
                             <video src="<?php echo $server_url; ?>/assets/video/havan-manisfestations.mp4" class="img-responsive" autoplay="" loop="" data-video="0" width="470"></video>
                         </div>
@@ -200,7 +196,6 @@
                     </div>
                     <div class="col-sm-6">
                         <h3 class="head-title">Remembering Guru Gobind Singh Ji</h3>
-                        <hr class="botm-line">
 
                         <img class="img img-responsive" src="<?php echo $server_url; ?>/assets/img/guru-gobind-singhji.jpg">
                     </div>
@@ -214,7 +209,6 @@
             <div class="row white">
                 <div class="col-sm-12">
                     <h3 class="head-title">Upcoming Events</h3>
-                    <hr class="botm-line">           
                     <table class="table">
                         <tr>
                             <td><span class="glyphicon glyphicon-time event-icon"></span></td>
@@ -247,7 +241,6 @@
                 <div class="col-md-8 col-sm-12">
                     <div class="section-title">
                         <h2 class="head-title black">Contact Us</h2>
-                        <hr class="botm-line">
                         <p class="sec-para black">If you want to know more about Dhyan Foundation, Yogi Ashwini, our causes, or would like to conduct a workshop at your home/office, please send us your message here.</p>
                     </div>
                 </div>

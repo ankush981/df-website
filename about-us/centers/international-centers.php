@@ -13,7 +13,6 @@
             <div class="col-sm-12 wow fadeInLeft delay-05s">
                 <div class="section-title">
                     <h2 class="head-title">Dhyan Foundation International Centers</h2>
-                    <hr class="botm-line">                    
                 </div>
             </div>            
         </div>
@@ -23,12 +22,12 @@
         <div class="row">
             <div class="col-sm-4 col-sm-offset-2 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/united-kingdom.jpg" height="250">
-                <h3>United Kingdom Center</h3>
+                <h3>United Kingdom</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#uk-details">Explore</button>
             </div>
             <div class="col-sm-4 text-center">
                 <img src="<?php echo $server_url; ?>/assets/img/about-us/centers/germany.jpeg" height="250">
-                <h3>Germany Center</h3>
+                <h3>Germany</h3>
                 <button class="btn btn-submit" data-toggle="modal" data-target="#germany-details">Explore</button>
             </div>
         </div>
