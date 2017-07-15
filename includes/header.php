@@ -61,7 +61,7 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="mynavbar">
                     <ul class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="<?php echo $server_url;?>">Home</a></li>
                         <li class="dropdown">
                             <a href="#" data-hover="dropdown">About <b class="caret"></b></a>
                             <ul class="dropdown-menu">
