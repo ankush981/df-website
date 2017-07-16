@@ -110,8 +110,7 @@
                 
                 <br><br>
                 <p><strong>Vedic Yagyas</strong></p>
-                <a href="#"><img src="<?php echo $server_url;?>/assets/img/about-us/vedic-yagya.jpg" class="img img-responsive img-center" width="310">
-                </a>
+                <iframe src="https://www.youtube.com/embed/rKZMbRvsIUg" frameborder="0" allowfullscreen></iframe>
                 <br>
                 <br>
                 <p><strong>Sanatan Kriya</strong></p>
